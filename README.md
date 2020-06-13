@@ -14,7 +14,12 @@ http://127.0.0.1:8080/api/ for rest operation
 ## Running the tests
 
 ### Prerequisites
-pip install -r mle/requirements.txt
+sudo apt-get install python3-pip
+sudo pip3 install virtualenv
+virtualenv hp_env
+source hp_env/bin/activate
+pip install -r house_price_prediction/requirements.txt
+deactivate
 
 ## Built With
 * [Flask](http://flask.pocoo.org/docs/1.0/) - The web framework.
