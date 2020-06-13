@@ -1,6 +1,7 @@
 from flask import Flask
+from src.rest import blueprint
 app = Flask(__name__)
-
+app.register_blueprint(blueprint)
 
 @app.route('/')
 def hello_world():
