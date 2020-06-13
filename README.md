@@ -1,17 +1,13 @@
-# Project Title
+# Bangalore housing price prediction
 
-Bangalore housing price prediction
-
-####Running Flask
+#### To run Flask
 
 cd house_price_prediction
 
 * Production - gunicorn --bind 0.0.0.0:5000 wsgi:app
 
-http://0.0.0.0:5000 for rest operation
+http://0.0.0.0:5000/api for rest operation
 
-
-## Running the tests
 
 ### Prerequisites
 sudo apt-get install python3-pip
