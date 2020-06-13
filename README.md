@@ -6,9 +6,9 @@ Bangalore housing price prediction
 
 cd house_price_prediction
 
-* Production - uwsgi --http :8080 --ini uwsgi.ini
+* Production - gunicorn --bind 0.0.0.0:5000 wsgi:app
 
-http://127.0.0.1:8080/api/ for rest operation
+http://0.0.0.0:5000 for rest operation
 
 
 ## Running the tests
