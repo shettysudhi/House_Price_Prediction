@@ -15,10 +15,15 @@ http://127.0.0.1:8080/api/ for rest operation
 
 ### Prerequisites
 sudo apt-get install python3-pip
+
 sudo pip3 install virtualenv
+
 virtualenv hp_env
+
 source hp_env/bin/activate
+
 pip install -r house_price_prediction/requirements.txt
+
 deactivate
 
 ## Built With
